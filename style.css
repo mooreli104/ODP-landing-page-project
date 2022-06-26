@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-section{
+    background-color: #1F2937;
+}
+
+.second-section{
+
+}
+
+
+
+.third-section{
+    background-color: #e5e7eb;
+
+}
+
