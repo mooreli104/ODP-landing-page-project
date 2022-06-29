@@ -41,7 +41,34 @@ body{
     background-color: gray;
 }
 
+.header{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 500px;
+}
+
 .header-logo{
     font-size: 24px;
-    color: #F9FAF8
+    color: #F9FAF8;
+
+}
+
+.links{
+ display: flex;
+ align-items: center;
+    gap: 50px;
+    font-size: 18px;
+
+}
+
+ul{
+        list-style-type: none;
+
+}
+
+a{
+    color: #e5e7eb;
+    text-decoration: none;
 }
