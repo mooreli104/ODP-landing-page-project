@@ -40,3 +40,8 @@ body{
 .image-placeholder{
     background-color: gray;
 }
+
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8
+}
