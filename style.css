@@ -1,10 +1,25 @@
+
+
+
+
 body{
-    display: flex;
+   display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    margin: 0;
+    border: 1;
+
+}
+
+.first-section,.second-section,.third-section,.fourth-section{
+    flex-grow:1;
 }
 
 .first-section{
     background-color: #1F2937;
+    height: 400px;
 }
 
 .second-section{
