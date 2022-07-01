@@ -173,6 +173,11 @@ button{
 
 
 .third-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
     background-color: #e5e7eb;
     font-size: 36px;
     font-style: italic;
