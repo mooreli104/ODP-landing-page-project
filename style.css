@@ -132,10 +132,27 @@ button{
 }
 
 .second-section{
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
 }
 
+.box{
+    width: 150px;
+    height: 150px;
+    border: solid 3px blue;
+}
 
+.information-section{
+    display: flex;
+    
+    gap: 16px;
+}
+.text{
+    width: 200px;
+}
 
 .third-section{
     background-color: #e5e7eb;
