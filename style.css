@@ -136,7 +136,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 32px;
+    gap: 40px;
 }
 .second-header{
     font-size: 36px;
