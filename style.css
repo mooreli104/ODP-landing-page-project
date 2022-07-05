@@ -136,22 +136,35 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 32px;
+}
+.second-header{
+    font-size: 36px;
+    font-weight: 999;
+    color: #1F2937
 }
 
 .box{
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border: solid 3px blue;
     border-radius: 15px;
+    
 }
 
 .information-section{
     display: flex;
-    
-    gap: 16px;
+    gap: 128px;
 }
 .text{
     width: 200px;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .third-section{
