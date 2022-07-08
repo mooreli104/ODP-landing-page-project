@@ -97,7 +97,7 @@ body{
 
 }
 
-.image{
+.ali-flex{
  
     width: 400px;
 }
@@ -105,7 +105,9 @@ body{
 
 img{
 width: 100%;
-height: auto;
+height: 100%;
+border-radius: 15px;
+border: 3px solid #1F2937;
 }
 
 ul{
@@ -137,6 +139,7 @@ button{
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding-top: 50px;
 }
 .second-header{
     font-size: 36px;
@@ -145,19 +148,19 @@ button{
 }
 
 .box{
-    width: 200px;
-    height: 200px;
-    border: solid 3px blue;
+    width: 250px;
+    height: 250px;
+   
     border-radius: 15px;
     
 }
 
 .information-section{
     display: flex;
-    gap: 128px;
+    gap: 256px;
 }
 .text{
-    width: 200px;
+    width: 250px;
     text-align: center;
 }
 
@@ -166,6 +169,7 @@ button{
     flex-direction: column;
     gap: 8px;
 }
+
 
 .third-section{
     background-color: #e5e7eb;
