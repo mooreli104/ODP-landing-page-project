@@ -191,11 +191,20 @@ button{
 
 
 .fourth-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
 
 }
 
 .blue{
-    background-color: blue;
+    background-color: #3882F6;
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 12px;
+
 }
 
 .footer{
