@@ -206,6 +206,9 @@ button{
     border-radius: 12px;
 
 }
+.videos{
+    font-weight:bolder;
+}
 
 .footer{
     background-color:#1F2937;
