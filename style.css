@@ -199,7 +199,10 @@ button{
 }
 
 .blue{
+    display: flex;
     background-color: #3882F6;
+    align-items: center;
+   gap: 50px;
     padding: 50px;
     padding-left: 100px;
     padding-right: 100px;
